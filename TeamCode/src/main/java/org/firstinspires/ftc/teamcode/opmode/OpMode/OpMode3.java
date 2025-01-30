@@ -97,26 +97,26 @@ public class OpMode3 extends LinearOpMode {
 
 //grabber
             if (gamepad2.left_trigger > 0.5) {
-                robot.grabServoLeft.setPosition(1.0); // open
+                // robot.grabServoLeft.setPosition(1.0); // open
             } else if (gamepad2.left_bumper) {
-                robot.grabServoLeft.setPosition(0.0); // close
+                // robot.grabServoLeft.setPosition(0.0); // close
             }
 
 
 //tilt servo
             if (gamepad2.right_stick_y > 0.7) {
-                robot.tiltServoLeft.setPosition(0.0);
+                // robot.tiltServoLeft.setPosition(0.0);
 
             } else if (gamepad2.right_stick_y < -0.7) {
-                robot.tiltServoLeft.setPosition(0.8);
+                // robot.tiltServoLeft.setPosition(0.8);
             }
 
 //tilt servo #2
             if (gamepad2.left_stick_y > 0.7) {
-                robot.tiltServoLeft.setPosition(0.0);
+                // robot.tiltServoLeft.setPosition(0.0);
 
             } else if (gamepad2.left_stick_y < -0.7) {
-                robot.tiltServoLeft.setPosition(0.6);
+                // robot.tiltServoLeft.setPosition(0.6);
             }
 
 

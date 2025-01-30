@@ -92,8 +92,8 @@ public class RobotHardware {
         //airplaneLauncher = hwMap.get(Servo.class, "feeder");
         //tiltServoRight = hwMap.get(Servo.class, "tiltServoR");
         //grabServoRight = hwMap.get(Servo.class, "grabServoR");
-        tiltServoLeft = hwMap.get(Servo.class, "tiltServoL");
-        grabServoLeft = hwMap.get(Servo.class, "grabServoL");
+        // tiltServoLeft = hwMap.get(Servo.class, "tiltServoL");
+        // grabServoLeft = hwMap.get(Servo.class, "grabServoL");
         //autoPixel.setPosition(0.5);
         //boardPixel.setPosition(0);
         //grabServo.setPosition(0.4);
